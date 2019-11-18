@@ -8,11 +8,13 @@
 
 Install the required packages with:
 
-`pip install -r requirements.txt`
+```shell
+pip install -r requirements.txt
+```
 
 Also create a `.env` file with your own values (without the quotation marks):
 
-```
+```shell
 API_TOKEN="Your CodeClimate API Token"
 ORG_ID="Your CodeClimate Organization ID"
 ```
@@ -21,4 +23,6 @@ ORG_ID="Your CodeClimate Organization ID"
 
 Just run:
 
-`python stats.py`
+```shell
+python stats.py
+```
