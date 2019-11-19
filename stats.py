@@ -47,10 +47,10 @@ def parse_test_reports_coverage(test_reports):
         else:
             coverage = (
                 test_report["test_reports"]["data"][0]
-                    .get("attributes", {})
-                    .get("rating", {})
-                    .get("measure", {})
-                    .get("value")
+                .get("attributes", {})
+                .get("rating", {})
+                .get("measure", {})
+                .get("value")
             )
         parsed_reports.append({**test_report, "coverage_percent": coverage})
 
