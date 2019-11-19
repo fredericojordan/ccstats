@@ -1,5 +1,7 @@
 # CodeClimate Organization Statistics
 
+Given an GitHub organization within CodeClimate, fetch all their tracked repositories and sorted them by test coverage.
+
 ## Requirements
 
 - Python 3.6 or higher
